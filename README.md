@@ -20,27 +20,50 @@ USER:
 
 Endpoints:
 ==========
-ADMIN: http://localhost:3000/adminlogin
+ADMIN: 
+
 Add flights:
+
 POST/ http://localhost:5000/flight
+
 Get flights:
+
 GET/ http://localhost:5000/flight
+
 Update flights:
+
 PUT/ http://localhost:5000/flight/:_id
+
 Delete flights:
+
 DELETE/ http://localhost:5000/flight/:_id
+
 Show routes:
+
 GET/ http://localhost:5000/routes
-Update routes:
+
+Update routes:t
+
 PUT/ http://localhost:5000/routes
+
 Delete routes:
+
 DELETE/ http://localhost:3000/routes/:_id
+
 Search routes:
+
 GET/ http://localhost:3000/flight/ : source/ :destination
-USER: http://localhost:3000/userlogin
+
+USER:
+
 Add Passenger:
+
  POST / http://localhost:5000/customer
+ 
 Get Passenger:
+
  GET / http://localhost:5000/searchcustomers/:id
+ 
 Delete Passenger:
+
  DELETE /http://localhost:5000/customer/:id
